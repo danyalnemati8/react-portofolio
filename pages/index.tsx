@@ -4,6 +4,7 @@ import {AiFillInstagram, AiFillLinkedin, AiFillGithub} from 'react-icons/ai';
 import Image from 'next/image';
 import dan from '../public/ddl.jpg'
 import por from '../public/porfolio.png'
+import movie from '../public/movie.png'
  
 
 export default function Home() {
@@ -55,14 +56,53 @@ export default function Home() {
             <li>C++, C, Java, Python</li>
             <li>APIs, PHP, MYSQL </li>
             </ul>
-            <div>
-              <Image src={por} width={100} height={100} alt={''}/>
-              <h3>Personal Website</h3>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+              <center>
+              <Image  className='flex'src={por} width={100} height={100} alt={''}/>
+              </center>
+              
+              <h3 className='py-4 pt-8 pb-2'>
+               <button><a href='https://github.com/danyalnemati8/react-portofolio'></a>Personal Website</button> </h3>
               <p>
                 Used TypeScript as well as Tailwind in React in order to
                 make this Web Page.
               </p>
+              <p className='py-1'>TSX</p>
+              <p className='py-1'>JS</p>
+              <p className='py-1'>CSS</p>
+
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+              <center>
+              <Image  className='flex'src={movie} width={100} height={100} alt={''}/>
+              </center>
               
+              <h3 className='py-4 pt-8 pb-2'>
+               <button><a href='https://github.com/danyalnemati8/react-portofolio'></a>Moviefy</button> </h3>
+              <p>
+                Used TypeScript as well as Tailwind in React in order to
+                make this Web Page.
+              </p>
+              <p className='py-1'>JS</p>
+              <p className='py-1'>CSS</p>
+              <p className='py-1'>HTML</p>
+
+            </div>
+            <div className='text-center shadow-lg p-10 rounded-xl my-10'>
+              <center>
+              <Image  className='flex'src={por} width={100} height={100} alt={''}/>
+              </center>
+              
+              <h3 className='py-4 pt-8 pb-2'>
+               <button><a href='https://github.com/danyalnemati8/react-portofolio'></a>Personal Website</button> </h3>
+              <p>
+                Used TypeScript as well as Tailwind in React in order to
+                make this Web Page.
+              </p>
+              <p className='py-1'>TSX</p>
+              <p className='py-1'>JS</p>
+              <p className='py-1'>CSS</p>
+
             </div>
           </div>
         </section>
