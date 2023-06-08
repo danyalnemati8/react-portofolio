@@ -27,8 +27,9 @@ export default function Home() {
           </ul>
           </nav>
           <div className='text-center p-10'>
-            <h2 className='text-4xl py-2 text-green-600 font-medium'>Danyal Nemati</h2>
-            <h3 className='text-2xl'>Web Develper</h3>
+            <h2 className='text-4xl py-2 text-red-600 font-medium'>Danyal Nemati</h2>
+            <h3 className="text-2xl text-blue-700 mt-4 transition-opacity duration-500 ease-in-out opacity-0 hover:opacity-100">Web Developer</h3>
+
             <p className='text-md py-5 leading-8 text-white'>3rd year Computer Science Major at California State 
               University Fullerton, who enjoys making Websites using JavaScript.
             </p>
@@ -44,24 +45,25 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className='text-3xl py-1'>About Me</h3>
-            <p className='text-md py-2 leading-8'>
-              Team oriented programmer, who loves working with others in order to 
-              come up with something special. On my free time I love to powerlift,
-               I am a one time State Champ! I Also enjoy spending time with my family.
-            </p>
-            <h4 className='text-3xl py-1'> Programming Languages :</h4>
-            <ul className=' list-outside list-disc ml-6 py-2'>
-            <li>React: JSX, TSX, JS, TS, HTML, CSS</li>
-            <li>C++, C, Java, Python</li>
-            <li>APIs, PHP, MYSQL </li>
-            </ul>
+          <div className="py-8">
+        <h3 className="text-3xl font-bold mb-2">About Me</h3>
+           <p className="text-lg leading-7 mb-4">
+         I am a team-oriented programmer who loves working with others to create something special. In my free time, I enjoy powerlifting, and I am a one-time State Champ! I also cherish spending time with my family.
+           </p>
+         <h4 className="text-3xl font-bold mb-2">Programming Languages:</h4>
+         <ul className="list-disc list-inside ml-6 text-lg leading-7">
+        <li>React: JSX, TSX, JS, TS, HTML, CSS</li>
+        <li>C++, C, Java, Python</li>
+        <li>APIs, MySQL</li>
+         </ul>
+        </div>
+
             <div className='text-center shadow-lg p-10 rounded-xl my-10'>
               <center>
               <Image  className='flex'src={por} width={100} height={100} alt={''}/>
               </center>
               <div className='py-4 pt-8 pb-2'>
-               <a href='https://github.com/danyalnemati8/react-portofolio'></a>Personal Website </div>
+               <a href='https://github.com/danyalnemati8/react-portofolio'>Personal Website </a></div>
               <p>
                 Used TypeScript as well as Tailwind in React in order to
                 make this Web Page.
@@ -77,7 +79,7 @@ export default function Home() {
               </center>
               
               <h3 className='py-4 pt-8 pb-2'>
-               <button><a href='https://github.com/danyalnemati8/react-portofolio'></a>Moviefy</button> 
+               <button><a href='https://github.com/danyalnemati8/react-portofolio'>Moviefy</a></button> 
                </h3>
               <p>
                 Used TypeScript as well as Tailwind in React in order to
