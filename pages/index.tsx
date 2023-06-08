@@ -60,9 +60,8 @@ export default function Home() {
               <center>
               <Image  className='flex'src={por} width={100} height={100} alt={''}/>
               </center>
-              
-              <h3 className='py-4 pt-8 pb-2'>
-               <button><a href='https://github.com/danyalnemati8/react-portofolio'></a>Personal Website</button> </h3>
+              <div className='py-4 pt-8 pb-2'>
+               <a href='https://github.com/danyalnemati8/react-portofolio'></a>Personal Website </div>
               <p>
                 Used TypeScript as well as Tailwind in React in order to
                 make this Web Page.
@@ -78,7 +77,8 @@ export default function Home() {
               </center>
               
               <h3 className='py-4 pt-8 pb-2'>
-               <button><a href='https://github.com/danyalnemati8/react-portofolio'></a>Moviefy</button> </h3>
+               <button><a href='https://github.com/danyalnemati8/react-portofolio'></a>Moviefy</button> 
+               </h3>
               <p>
                 Used TypeScript as well as Tailwind in React in order to
                 make this Web Page.
